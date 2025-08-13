@@ -25,3 +25,9 @@ React Hook Form과 Zod로 폼 관리를 하고, Zustand로 간단한 전역 상�
 ```bash
 npm install
 ```
+
+### 실행
+
+```bash
+npm run dev
+```
