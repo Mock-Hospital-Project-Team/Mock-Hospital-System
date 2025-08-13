@@ -1,12 +1,27 @@
-# React + Vite
+# 모의 병원 시스템 (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 프로젝트 개요
 
-Currently, two official plugins are available:
+React와 JavaScript 기반으로 개발하는 모의 병원 시스템 프론트엔드입니다.  
+백엔드 API 없이 MSW(Mock Service Worker)로 목업 API를 사용하며,  
+React Hook Form과 Zod로 폼 관리를 하고, Zustand로 간단한 전역 상태를 관리합니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 기술 스택
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- MSW (Mock API)
+- React Hook Form + Zod (폼 상태 및 검증)
+- Zustand (전역 상태 관리)
+- JavaScript (TypeScript 미사용)
+
+---
+
+## 시작하기
+
+### 설치
+
+```bash
+npm install
+```
